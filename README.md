@@ -15,6 +15,6 @@ This repository consists of three folder:
 *shortMD.py: python script to perform the MLP MDs via yaff and ASE.  
 *create_snapshot_cifs: post-analysis script which extracts random snapshots and an average snapshot for all MDs.  
 *get_angle_dist: post-analysis script which constucts the Br-Pb-Br bond angle plots (also present in this folder).  
-*submitscript.sh: submits the python job to our local HPC,, and loads the psiflow module (version 3.0.0).  
+*submitscript.sh: submits the python job to our local HPC, and loads the psiflow module (version 3.0.0).  
 
 - temperature_investigation: also contains the psiflow_files and MLP_MDs_yaff folder. The same calculations were also performed to investigate the effect of temperature (instead of vacancies), the input files for these calculations can be found in this folder.  
