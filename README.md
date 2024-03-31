@@ -8,6 +8,7 @@ This repository consists of three folder:
 *run_sequential_learning.py: the main python script, which performs the psiflow active learning workflow.  
 *submitscript.sh: submits the python job to our local HPC, and loads the psiflow module (version 3.0.0)  
 *data: contains the input settings for CP2K, and the initial structures dataset  
+*output_final_iteration: contains the training and validation set, the log files, and the deployed and undeployed model of the last iteration of the active learning loop  
 
 - MLP_MDs_yaff: contains the input files for the MDs performed with the final MLP constructed with psiflow. From these MDs the Pb-Br-Pb bond angles distribution is extracted, the post-analysis python script to construct these figures is also present in this folder.  
 *each folder contains the input files for a separate MD simulation. The name indicates how many vacancies are present in the initial structure.  
