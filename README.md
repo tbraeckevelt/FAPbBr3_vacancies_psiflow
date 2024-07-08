@@ -1,7 +1,7 @@
 # FAPbBr3_vacancies_psiflow
 A repository for the paper about the effect of vacancies on the structural properties of FAPbBr3  
 
-This repository consists of three folder:  
+This repository consists of three folders:  
 
 - psiflow_files: contains the input files for the active learning via psiflow.  
 *hortense.yaml: contains the configuration settings for parsl, this selects the requested resources for the three different type of simulations (AI reference, MLP training, and MLP MD)  
